@@ -13,12 +13,12 @@ class TodoList {
                     break;
                 case 'create':
                     if (this.input.value.length > 0) {
-                        todo1.addTodo(new Task(input.value, false))
+                        this.addTodo(new Task(input.value, false))
                     }
                     break;
                 case 'find':
                     if (this.input.value.length > 0) {
-                        todo1.findTasks(input.value);
+                        this.findTasks(input.value);
                     }
                     break;
                 case 'up':
