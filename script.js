@@ -18,7 +18,7 @@ class TodoList {
                     break;
                 case 'find':
                     if (this.input.value.length > 0) {
-                        this.findTasks(input.value);
+                        this.findTasks(this.input.value);
                     }
                     break;
                 case 'up':
